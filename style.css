@@ -1,0 +1,129 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+}
+.wrapper {
+  width: 1280px;
+  height: 100vh;
+  position: relative;
+  margin: 0 auto;
+  display: flex;
+}
+a {
+  text-decoration: none;
+  color: blue;
+  font-weight: 900;
+}
+
+img {
+  height: 80px;
+}
+#git,
+#wiki {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+}
+#git {
+  border-right: 1px solid teal;
+}
+input {
+  width: 400px;
+  height: 50px;
+  padding: 15px;
+  font-size: 20px;
+  border: 1px solid teal;
+  background: transparent;
+  border-radius: 10px;
+}
+input:focus {
+  outline: none;
+}
+input:placeholder-shown {
+  font-size: 15px;
+}
+
+.authCard {
+  position: relative;
+  display: flex;
+  margin: 10px 0;
+  padding: 10px 20px;
+  min-width: 500px;
+  border-radius: 8px;
+  box-shadow: 5px 5px 10px gray;
+}
+.authAva {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  justify-content: center;
+}
+
+.authImg {
+  position: relative;
+  width: 100px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.authInfo {
+  display: flex;
+  flex-grow: 1;
+}
+.info_left {
+  display: flex;
+  padding: 5px 10px;
+  flex-direction: column;
+}
+
+.profileFollow {
+  display: flex;
+  justify-content: space-evenly;
+}
+.follow {
+  width: 50px;
+  height: 30px;
+  padding: 5px 10px;
+}
+.following {
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  justify-content: start;
+}
+.followers {
+  padding: 0 20px;
+  align-items: center;
+  justify-content: start;
+  display: flex;
+}
+.reaching {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 5px 15px;
+  flex-grow: 1;
+}
+
+.wikiResult {
+  display: flex;
+  flex-direction: column;
+  margin: 5px 0;
+  padding: 10px 20px;
+  border-radius: 8px;
+  box-shadow: 5px 5px 10px grey;
+}
+
+.wikiName {
+  font-weight: 700;
+}
+.wikiDescription {
+  font-weight: 500;
+}

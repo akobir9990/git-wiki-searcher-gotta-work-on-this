@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="authCard">
+      <div class="authAva">
+        <img class="authImg" src="${data.avatar_url}" alt="" />
+        <h3 class="authNickName">${data.login}</h3>
+      </div>
+      <div class="authInfo">
+        <h2 class="authName">${data.name}</h2>
+        <div class="profileFollow">
+          <button class="follow">
+            <a href="${data.html_url}">follow</a>
+          </button>
+          <div class="following">
+            <img />
+            following ${data.following}
+          </div>
+          <div class="followers">
+            <img />
+            followers ${data.followers}
+          </div>
+        </div>
+        <div class="reaching">
+          <div class="">
+            <img src="" alt="" />
+            <a href=""></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
