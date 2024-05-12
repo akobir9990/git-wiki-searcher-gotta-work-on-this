@@ -7,7 +7,10 @@ body {
   font-family: sans-serif;
 }
 .wrapper {
-  width: 1280px;
+  position: relative;
+
+  display: flex;
+  max-width: 1280px;
   height: 100vh;
   position: relative;
   margin: 0 auto;
@@ -29,10 +32,10 @@ img {
   flex-direction: column;
   align-items: center;
   width: 50%;
-}
-#git {
+  border-left: 1px solid teal;
   border-right: 1px solid teal;
 }
+
 input {
   width: 400px;
   height: 50px;
@@ -126,4 +129,18 @@ input:placeholder-shown {
 }
 .wikiDescription {
   font-weight: 500;
+}
+
+@media (max-width: 1100px) {
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #git,
+  #wiki {
+    width: 100%;
+    border: none;
+    min-height: 35%;
+  }
 }

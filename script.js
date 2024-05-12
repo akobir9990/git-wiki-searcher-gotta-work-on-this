@@ -38,14 +38,6 @@ gitSearcher.addEventListener("keyup", (e) => {
           <div class="linkedIn">
             <h4>Public repos: ${data.public_repos}</h4>
           </div>
-          <div class="linkedIn">
-            <img src="" alt="" />
-            <a href="">LinkedIn</a>
-          </div>
-          <div class="x">
-            <img src="" alt="" />
-            <a href="">X</a>
-          </div>
         </div>
       </div>
     </div>`;
